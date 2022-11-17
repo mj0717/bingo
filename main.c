@@ -15,6 +15,31 @@ int main(int argc, char *argv[]) {
 	
 	
 	
+	//generate number
+	
+	//initialize bingo boards
+	
+	
+	/*
+	//while(game is not end) //줄 수가 N_BINGO보다 작음 
+	{
+		//bingo board printing
+		
+		//print no. of completed lines
+		
+		//select a proper number
+		
+		//update the board status 
+    }
+	*/
+	
+
+	
+	
+	
+	
+	//ending
+	
 	printf("\n\n\n\n\n\n\n\n");
 	printf("^_^^_^^_^^_^^_^^_^^_^^_^^_^^_^^_^^_^^_^^_^\n");
 	printf(">_<>_<>_<>_<>_<>_<>_<>_<>_<>_<>_<>_<>_<>_<\n");
