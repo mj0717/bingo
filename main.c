@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include "bingoBoard.h"
-#define N_SIZE			5
 
-#define BINGO_RES_UNFINISHED  -1
-#define BINGO_RES_FINISHED     0
+
+#define BINGO_RES_UNFINISHED     -1
+#define BINGO_RES_FINISHED        0
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
@@ -41,6 +41,7 @@ int get_number(void)
 
 
 int main(int argc, char *argv[]) {
+	
 	int selNum;
 	srand((unsigned)time(NULL));
 	
@@ -69,6 +70,8 @@ int main(int argc, char *argv[]) {
 		printf("%i\n", selNum);
 		
 		bingo_inputNum(selNum);
+		
+		
 	}
 
 
@@ -100,6 +103,7 @@ int main(int argc, char *argv[]) {
 	printf("^_^^_^^_^^_^^_^^_^^_^^_^^_^^_^^_^^_^^_^^_^\n");
 	printf(">_<>_<>_<>_<>_<>_<>_<>_<>_<>_<>_<>_<>_<>_<\n");
 	
+	bingo_printBoard();
 	
 	return 0;
 }
